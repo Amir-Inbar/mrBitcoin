@@ -1,0 +1,15 @@
+.contact-preview {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  &:hover {
+    // opacity: 0.8;
+    background-color: #3e6f8d;
+  }
+  cursor: pointer;
+  img {
+    margin-inline-end: 20px;
+    width: 80px;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,36 @@
+.navbar {
+  height: 60px;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-family: monospace;
+  background: $clr3;
+  opacity: 0.6;
+  align-items: center;
+  a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+  }
+  .logo {
+    cursor: pointer;
+    align-items: center;
+    gap: 5px;
+  }
+  .main-header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    width: 100%;
+
+    a {
+      display: flex;
+      cursor: pointer;
+      svg {
+        height: 35px;
+        width: 100%;
+      }
+    }
+  }
+}

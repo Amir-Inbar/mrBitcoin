@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Opensans, sans-serif;
+  line-height: 1.8;
+  // background-image: url('../../assets/img/background.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+}
+
+body {
+  height: 100%;
+  font-size: 14px;
+  margin: 0;
+  font-family: opensans;
+  background-color: $clr3;
+  background-image: url('../../../public/assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overflow-y: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}

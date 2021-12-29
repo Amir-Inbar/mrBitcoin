@@ -1,0 +1,37 @@
+.contacts-list-container {
+  overflow-y: hidden;
+  .contacts-list {
+    max-height: 80vh;
+    overflow-y: scroll;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+    a {
+      text-decoration: none;
+    }
+
+    &::-webkit-scrollbar {
+      width: 18px;
+      scroll-behavior: smooth;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #091e4214;
+      border-radius: 50px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 50px;
+      background-color: #5d64727c;
+      //   outline: 1px solid #dadbe2;
+    }
+
+    &::-webkit-scrollbar-track-piece {
+      border-radius: 50px;
+      background: #00000010;
+    }
+  }
+}
